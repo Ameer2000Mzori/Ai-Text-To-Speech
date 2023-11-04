@@ -50,7 +50,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://github.com/Ameer2000Mzori/Ai-Text-To-Speech/src/home.html)
+- [Live Demo Link](https://github.com/Ameer2000Mzori/Ai-Text-To-Speech/src/about.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
