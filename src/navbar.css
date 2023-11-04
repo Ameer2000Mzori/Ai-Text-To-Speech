@@ -5,7 +5,7 @@
   text-align: center;
   align-items: center;
   justify-content: space-evenly;
-  padding: 1.5rem;
+  padding: 0.3rem;
   background-color: rgb(39, 39, 39);
   color: white;
   filter: drop-shadow(0 0 1rem rgb(49, 49, 49));
@@ -93,6 +93,14 @@
     justify-content: space-evenly;
     text-align: start;
     align-items: start;
+    padding: 1rem;
+  }
+
+  .brand-p {
+    color: bisque;
+    position: absolute;
+    left: 25px;
+    top: -20px;
   }
 
   .menubtn-wrap {
