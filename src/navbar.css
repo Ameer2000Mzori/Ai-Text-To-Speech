@@ -1,0 +1,121 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1.5rem;
+  background-color: rgb(39, 39, 39);
+  color: white;
+  filter: drop-shadow(0 0 1rem rgb(49, 49, 49));
+}
+
+.navbrand-wrap {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  transform: rotate(-14deg);
+}
+
+.navbrand {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+}
+
+.brand-p {
+  color: bisque;
+  position: absolute;
+  left: 18px;
+}
+
+.brand-p:hover {
+  color: rgb(167, 152, 134);
+}
+
+.brand-p:active {
+  color: rgrgb(119, 117, 115);
+}
+
+.menubtn-wrap {
+  position: absolute;
+  display: none;
+  height: 40px;
+  width: 40px;
+  right: 4rem;
+  top: 1rem;
+}
+
+.menubtn {
+  height: 40px;
+  width: 40px;
+}
+
+.navlinks {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.navlinks ul {
+  display: flex;
+  list-style: none;
+}
+
+.navlinks ul li {
+  padding: 1rem;
+}
+
+.navlinks ul li a {
+  color: antiquewhite;
+  text-decoration: none;
+}
+
+.navlinks ul li a:hover {
+  color: rgb(231, 208, 178);
+}
+
+.navlinks ul li a:active {
+  color: rgb(90, 89, 88);
+}
+
+@media screen and (max-width: 769px) {
+  .navbar {
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: start;
+    align-items: start;
+  }
+
+  .menubtn-wrap {
+    display: flex;
+  }
+
+  .navlinks {
+    display: none;
+  }
+
+  .navlinks ul {
+    display: flex;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .navlinks ul li {
+    margin-top: 2rem;
+  }
+
+  .navlinks.active {
+    display: flex;
+  }
+}
