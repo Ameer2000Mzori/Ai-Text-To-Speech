@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ai-Text-To-Speach</title>
+    <link rel="stylesheet" href="header.css" />
     <link rel="stylesheet" href="footer.css" />
     <link rel="stylesheet" href="about.css" />
     <link rel="stylesheet" href="navbar.css" />
@@ -31,6 +32,11 @@
       </div>
     </nav>
 
+    <section class="header">
+      <button class="audiobtn">tell me a joke</button>
+      <audio id="audio" src="" controls></audio>
+    </section>
+
     <footer class="footer">
       <div class="footer-wrap">
         <p>Please dont forget to check my social media:</p>
@@ -50,6 +56,7 @@
         </div>
       </div>
     </footer>
+    <script type="module" src="speech.js"></script>
     <script type="module" src="navbar.js"></script>
     <script type="module" src="script.js"></script>
   </body>

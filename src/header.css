@@ -1,0 +1,80 @@
+.header {
+  display: flex;
+  background-image: url("./assets/robot.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  height: 450px;
+  padding: 15%;
+}
+
+.audiobtn {
+  position: relative;
+  top: 15rem;
+  left: 11rem;
+  border-style: none;
+  border-color: none;
+  border-radius: 15px;
+  width: 100px;
+  height: 50px;
+  animation-name: backgroundani;
+  animation-duration: 5s;
+  animation-fill-mode: backwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes backgroundani {
+  100% {
+    background-color: bisque;
+    color: black;
+  }
+
+  25% {
+    color: white;
+    background-color: rgba(63, 63, 62, 0.74);
+  }
+
+  0% {
+    color: black;
+    background-color: rgb(253, 244, 234);
+  }
+}
+
+.audiobtn:hover {
+  animation: none;
+  cursor: pointer;
+  background-color: bisque;
+}
+
+.audiobtn:active {
+  background-color: rgb(94, 93, 93);
+}
+
+#audio {
+  display: none;
+}
+
+@media screen and (max-width: 769px) {
+  .header {
+    display: flex;
+    background-image: url("./assets/robot.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 550px;
+    padding: 15%;
+  }
+
+  .audiobtn {
+    position: absolute;
+    top: 28rem;
+    left: 8.5rem;
+  }
+}
