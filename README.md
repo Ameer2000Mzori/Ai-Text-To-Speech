@@ -16,7 +16,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 My Portafolio <a name="about-project"></a>
+# 📖 AI Text-To-Speech <a name="about-project"></a>
 
 > AI Text-To-Speech is a small project created with HTML, CSS, and JavaScript. It's part of a challenge to create 20 websites within 20 days. It uses the RapidAPI, and when you click the button, the AI will read the joke fetched from the API.
 
